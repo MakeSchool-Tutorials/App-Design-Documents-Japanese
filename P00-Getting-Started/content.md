@@ -1,35 +1,19 @@
 ---
-title: "App Design Documents"
-slug: app-design-documents
+title: "独自の設計文書"
+slug: your-own-design-document
 ---
 
-An _App Design Document_ (ADD) is meant to detail the objective, mechanics, level design, technical requirements, and development milestones for your app. It is a _living document_. You should be consistently updating your design document throughout development. If you are not updating your design document at least twice a week, then you are falling behind!
-
-Having a completed design document makes it much easier to visualize your progress throughout development and keep track of what you have accomplished. It will help you make the correct decisions if you need to cut features because you are behind schedule, or add features because you are ahead of schedule. Whenever you decide to change some aspect of your app's design or development schedule, make sure to update your design document!
-
-# Your first App Design Document
-
-To get started, we will be writing a App Design Document for one of the tutorial apps!
+ここまで少し練習を重ねてきたので、あなた自身のチュートリアルアプリのために、アプリデザインドキュメントを書いてみましょう！
 
 > [action]
-> Choose one of the tutorial apps you have completed -- as a reminder, they are:
+> [GitHub](http://github.com) にログインし、あなた自身のアプリ用に新たなレポジトリを作成しましょう。すでに開始しているのであれば、以前のレポジトリを使用することができます！
 >
-1. Tip Calculator
-1. Notes
-1. Makestagram
+> 新たなレポジトリを閲覧すると、トップバーに「Wiki」というリンクがあります。これをクリックし、「アプリデザインドキュメント」という名前の新しいページを作成してください。
 >
-Try and choose a app similar to the one you want to make yourself! If you want to make a utility app, choose Tip Calculator. If you want to make an offline app that stores data, choose Notes. If your app will leverage Firebase or other APIs, choose Makestagram.
->
-> Log into [GitHub](http://github.com) and create a new repository titled after the demo app. You can use your completed app repository if you have been using git/SourceTree/GitHub already!
->
-> When viewing the new repository, there will be a link in the top bar that says "Wiki". Click on that and create a new page titled "App Design Document"
-> 
-> We're going to be editing our App Design Document in Markdown format, which is a very simple format that looks good both in plain-text and rendered. You can read more about Markdown formatting [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
->
-> Copy and paste this into the new page:
+> これを新しいページにコピー＆ペーストしてください。
 >
 ```
-## Table of Contents
+## 目次
   * [App Design](#app-design)
     * [Objective](#objective)
     * [Audience](#audience)
@@ -48,136 +32,128 @@ Try and choose a app similar to the one you want to make yourself! If you want t
 >
 ---
 >
-### App Design
+### アプリのデザイン
 >
-#### Objective
-[explain the goal of the app]
+#### 目的
+[アプリの目標を説明してください]
 >
-#### Audience
-[who is this app targeting?]
+#### 聴衆
+[アプリは誰を対象にしていますか]
 >
-#### Experience
-[how will your users interact with this app?]
->
-[Back to top ^](#)
->
----
->
-### Technical
->
-#### Screens
-* [list the different screens used in the app]
->
-#### External services
-* [list which APIs or external services will your app use?]
->
-#### Views, View Controllers, and other Classes
-* Views
-  * [list all views you will need]
-* View Controllers
-  * [list all view controllers you will need]
-* Other Classes
-  * [list any other classes you will need]
->
-#### Data models
-* [list all Firebase data models your app will need]
+#### 体験
+[このアプリとユーザーはどのように交流しますか]
 >
 [Back to top ^](#)
 >
 ---
 >
-### MVP Milestones
-[The overall milestones of first usable build, core features, and polish are just suggestions, plan to finish earlier if possible. The last 20% of work tends to take about as much time as the first 80% so do not slack off on your milestones!]
+### テクニカル
 >
-#### Week 1
+#### 画面
+* [アプリに利用されているさまざまな画面をリストにして記載してください]
+>
+#### 外部サービス
+* [どの API または外部サービスをアプリが使いますか]
+>
+#### ビュー、ビューコントローラー、その他のクラス
+* ビュー
+  * [必要なビューをすべてリストとして記載してください]
+* ビューコントローラー
+  * [必要なビューコントローラーをすべてリストとして記載してください]
+* 他のクラス
+  * [必要な他のクラスをリストとして記載してください]
+>
+#### データモデル
+* [アプリが必要なすべての Firebase データモデルをリストとして記載してください]
+>
+[Back to top ^](#)
+>
+---
+>
+### MVP マイルストーン
+[最初の実用的なビルド、核となる機能、仕上げに関する全体的なマイルストーンは単なる提案です。できれば、もっと早く完成できるように計画しましょう。作業の’最後の20%は、最初の80%と同じぐらい時間がかかることはよくあります。マイルストーンをサボらないようにしましょう！]
+>
+#### 第 1 週
 _planning your app_
-* [goals for the week]
+* [今週の目標]
 >
-#### Week 2
+#### 第 2 週
 _finishing a usable build_
-* [goals for the week, should be finishing a usable app]
+* [今週は、利用可能なアプリを完成させることを目標にすべきです]
 >
-#### Week 3
-* [goals for the week]
+#### 第 3 週
+* [今週の目標]
 >
-#### Week 4
-* [goals for the week, should be finishing all core features]
+#### 第 4 週
+* [今週は、核となる機能をすべて完成させることを目標にすべきです]
 >
-#### Week 5
+#### 第 5 週
 _starting the polish_
-* [goals for the week]
+* [今週の目標]
 >
-#### Week 6
+#### 第 6 週
 _submitting to the App Store_
-* [goals for the week, should be finishing the polish -- demo day on Saturday!]
+* [今週は、仕上げを終わらせることを目標にすべきです -- 土曜日はデモの日です！]
 >
 [Back to top ^](#)
 ```
 
-Time to start writing your app design document!
+もうすでに努力は尽くしてきました。あなた自身のアプリを完成させるときです！以下のステップは、前のページでこなしたものと同じです。参考のために掲載されています。必ず全部に目を通しましょう！
 
-# App Design
+# アプリのデザイン
 
-## Objective
+## 目的
 
-Explain your app in 2-3 sentences.
+あなたのアプリを2〜3つの文で説明してください。
 
-## Audience
+## 聴衆
 
-This is where you explain what kind of people your app is targeting. What age range, interests, background, etc... characterize the users you expect? How much time and disposable income does this audience have? In what circumstances during the day will they use your app?
+ここで、アプリがどのような人々を対象にしているか説明します。年齢層、関心、履歴など、どのような特徴を期待しますか。その対象者はどれぐらいの時間や可処分所得を持っていますか。一日のうち、どのような状況でアプリを使いますか。
 
-## Experience
+## 体験
 
-Start by describing, almost like you are telling a story, how a typical user will interact with your app. Why will they choose to open it, what will they do when it is open, what is the benefit or outcome of using it, and what should they feel when using it?
+まるで何か話をするときのように、典型的なユーザーはあなたのアプリにどう接するかを説明することから始めましょう。なぜこのアプリを開くことを選ぶのでしょうか。アプリを開いたら何をするのでしょうか。アプリを利用することで得られる利益や結果は何でしょうか。アプリを使っているときには、どういう気持ちを感じるべきでしょうか。
 
-You can write these user stories following this format:
-> As a `<type of user>`, I want `<some goal>` so that `<some reason>`.
+次に、似たような外観や感触を持つアプリをリストにし、自分のアプリから何を期待するかを書いてください。アプリとのやり取りを一貫してメリットがあるようにするやり方について、後から参照にしてヒントにしてください。
 
-Here's some examples from Snapchat:
-> As a normal user, I want to be able to post photos to my story, so my friends can see them.
+# テクニカル
 
-> As a power user, when I wake up in the morning I want to be able to send a selfie in which I make a pouty face, to all 75 of my friends, so I can increase my score.
+## 画面
 
-Next list apps you think have a similar look and feel to what you want for your app. Refer back to them for inspiration on how to make interacting with your app consistent and rewarding.
+アプリの各画面について、そして一つの画面が別の画面へどう切り替わるかについて説明してください。 MVPから取り除ける画面はありますか？
 
-# Technical
+アプリのプロトタイプを紙で行い、反復作業を進めていくにあたって、画像やスクリーンショットをここで追加するようにしましょう！
 
-## Screens
+## 外部サービス
 
-Describe each screen in your app and how you get from one to the other. Are there any screens you could remove from your MVP?
+アプリを作成する時、どの API または外部サービスを利用しますか。これらをすべて記載して、ここで確認しておいたほうがいい代用品も記載するようにしましょう。
 
-As you paper prototype your app and progress through iterations, be sure to add pictures and screenshots here!
+## ビュー、ビューコントローラー、その他のクラス
 
-## External Services
+アプリを作成するために必要なすべてのビュー、ビューコントローラー、その他のSwiftのクラスをリストに記載してください。これらの流れや目的を説明してください。
 
-What APIs or external services will you use when making your app? List them and any alternatives you may need to check out here.
+## データモデル
 
-## Views, View Controllers, and other Classes
+アプリが必要とするすべての Firebase データをリストに記載してください。
 
-List all Views, View Controllers, and other Swift classes you will need to make you app. Describe the flow through them and purpose of each
+# 実用最小限の製品
 
-## Data models
+この部分が、最も頻繁に更新されるべき部分です。毎週どの作業を完了する予定か、記録をつけます。これぐらい長期にわたるプロジェクトが初めてだと、作業にどれぐらい時間がかかるのか、できる限り最高の推測を立てる必要があるでしょう。
 
-List all Firebase data models your app will require.
+週単位でタスクに順番付けをする前に、まずは目の前にタスクをすべてリスト化しましょう。これには、MVPに搭載されるものや、アプリに必要な技術的ではない作業すべてを含め、アプリのデザインドキュメントに記載したものすべてが記載されることになります。
 
-# Minimum Viable Product Milestones
+各作業につき、何日かかるか推定してください。一日もかからないと思う場合は、一日に繰り上げてください。
 
-This is the section that should get updated the most often. You will be keeping track of what tasks you plan on completing each week. If you're new to projects this long, you will have to make best guesses as to how long things will take.
+すべての日数を足してください。合計に1.2を掛けて、予期せぬ遅れがあったときでも余裕を持てるようにしましょう。推定されるタスクが25日を超える場合でも、推定は変えないようにしましょう。大型プロジェクトの対応に関して熟練の経験がない限り、絶対、もっと楽観的に推定を変えるべきではありません。あるタスクにN日かかると感じたものの、考えてみるとそれほど長くはかからないだろうと判断するような場合は大きな赤信号です。これはほぼいつも間違いです。
 
-Before ordering your tasks on a week by week basis, first list every task on your plate. This should include everything you've listed in your app design document that will be in your MVP and all the non-technical work your app requires.
+25日を超えて作業が残っている場合は、機能を削減しましょう。痛みがないというのであれば、それは機能を十分に削減していないということです。
 
-For every task, estimate how many days it will take. If you think it will take less than a day, round up to a day.
+アプリのデザインに大きな変更を加える結果になって、必要がある場合は、デザインドキュメントを修正しましょう。
 
-Add all the days together. Multiply by 1.2 to give yourself buffer time for unexpected delays. If you end up with more than 25 days of estimated tasks, do not change your estimates. Unless you have significant experience with large projects you should almost never change your estimates to be more optimistic. It is a big red flag if your gut tells you a task will take N days but after thinking about it you decide it won't take as long. You're almost always wrong.
+25日に収まるタスクのリストができた段階でのみ、タスクを週ごとに分割し始めるべきです。
 
-If you have more than 25 days of work left, cut features. If it doesn't hurt, you aren't cutting enough features.
+# 完成させる
 
-Revise your design document if necessary if you end up making significant changes to your app's design.
+すべて筋が通っていることを確認するために、デザインドキュメントをすべて読んでください。依存関係を確認しましょう -- タスクは、完成の順番で並んでいるべきです！必要に応じて編集してください。
 
-Only once you have a list of tasks that fit in 25 days should you start dividing them up week by week.
-
-# Wrapping Up
-
-Read your design document over to make sure everything makes sense. Check dependencies -- tasks should be in order of completion!
-
-Edit as necessary. Ready to create one for your actual app?
+これを常に最新状態に保ってください。これは毎日参照し、少なくとも週に2回は更新すべきです。
